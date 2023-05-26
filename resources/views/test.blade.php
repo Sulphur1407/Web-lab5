@@ -12,7 +12,7 @@
             @endforeach
 
     @for($i = 0; $i < 3; $i++)
-        <p>
+        <p>{{ $colors[$i] }}</p>
     @endfor
 
     @if ($colors[1] = "blue")
